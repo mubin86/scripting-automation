@@ -1,13 +1,15 @@
 #! /usr/bin/bash
 
-echo "Hello People!!!!!!!!!!" 
+
+#####BASICS########
+# echo "Hello People!!!!!!!!!!" 
 
 #system variable
 #system variable_defined with uppercase and starts with $
-echo $BASH 
-echo $BASH_VERSION
-echo $HOME
-echo current working directory id $PWD
+# echo $BASH 
+# echo $BASH_VERSION
+# echo $HOME
+# echo current working directory id $PWD
 
 
 #user defined variable
@@ -49,6 +51,9 @@ echo current working directory id $PWD
 
 
 ###special case
-echo "enter name "
-read #if we dont take any variable in input
-echo "name is $REPLY" #then the output will store in this default variable which is a reserved keyword
+# echo "enter name "
+# read #if we dont take any variable in input
+# echo "name is $REPLY" #then the output will store in this default variable which is a reserved keyword
+
+###passing arguments in a bash script
+echo $1 $2 $3 ' > echo $1 $2 $3' # whenever i start the script with terminal if pass some arguments here the first $1 $2 will work as a parameter to receive those input argu--->it takes the input
