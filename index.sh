@@ -43,6 +43,8 @@
 # echo "username is $uname"
 # echo "password is $upassword"
 
+# echo "password is $upassword"
+
 
 #array input
 # echo "Enter names "
